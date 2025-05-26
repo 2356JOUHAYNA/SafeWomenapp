@@ -37,7 +37,7 @@ Includes:
 ```bash
 cd backend
 docker-compose up -d
-
+```
 
 Access services:
 
@@ -61,17 +61,15 @@ DB: localhost:5432
 
 ## Backend Structure
 
-├── controller # API endpoints
-├── services # Business logic
-├── repository # Data access
-├── model # JPA entities
-├── config # Security and JWT
-├── uploads/audio # Saved audio files
+```
+├── controller         # API endpoints
+├── services           # Business logic
+├── repository         # Data access
+├── model              # JPA entities
+├── config             # Security and JWT
+├── uploads/audio      # Saved audio files
 └── resources
-
-bash
-Copy
-Edit
+```
 
 ## Getting Started
 
@@ -87,38 +85,34 @@ Edit
 git clone https://github.com/2356JOUHAYNA/SafeWomenapp.git
 cd SafeWomenapp/backend
 mvn spring-boot:run
-Android App
-Open in Android Studio
+```
 
-Set API URL in Constants.java (for example: http://10.0.2.2:8082)
+### Android App
 
-Build and run
+Open in Android Studio  
+Set API URL in Constants.java (for example: http://10.0.2.2:8082)  
+Build and run  
 
-Screenshots
+## Screenshots
+
 Screenshots should be placed in the /screenshots directory, including:
 
-SOS Trigger Screen
+- SOS Trigger Screen  
+- Safe Zone Map  
+- ChatBot Interface  
+- Audio Alert History  
+- User Profile  
 
-Safe Zone Map
+## Contributors
 
-ChatBot Interface
+- Jouhayna Koubichate  
+- Aliae Chahbar  
 
-Audio Alert History
+## Contact
 
-User Profile
+- khaoulaaguabdre@gmail.com  
+- safewomen.contact@gmail.com  
 
-Contributors
+## License
 
-
-Jouhayna koubichate
-
-Aliae Chahbar
-
-Contact
-khaoulaaguabdre@gmail.com
-
-safewomen.contact@gmail.com
-
-License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
