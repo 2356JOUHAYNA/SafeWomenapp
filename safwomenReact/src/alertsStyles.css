@@ -1,0 +1,174 @@
+/* === Police et Couleurs Globales === */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff5f8;
+  color: #4a4a4a;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* === Layout Principal === */
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+/* === Barre Latérale === */
+.sidebar {
+  width: 230px;
+  background-color: #f8e1e7;
+  color: #6c4c5e;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h2 {
+  font-size: 1.8em;
+  color: #d16ba5;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 20px;
+}
+
+.sidebar nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.sidebar nav ul li a:hover,
+.sidebar nav ul li .active {
+  background-color: #f3c7d5;
+  font-weight: bold;
+}
+
+/* === Contenu Principal === */
+.main-content {
+  flex-grow: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background-color: #fffafd;
+}
+
+/* === En-tête === */
+.main-header h1 {
+  color: #b13d73;
+  margin-bottom: 20px;
+}
+
+/* === Liste des Alertes === */
+.alerts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 400px; /* 🔽 limite la hauteur visible */
+  overflow-y: auto;   /* 🔽 active le scroll vertical */
+  padding-right: 10px; /* optionnel : pour ne pas coller à la scrollbar */
+  scroll-behavior: smooth;
+}
+
+
+.alert-card {
+  background-color: #fff0f5;
+  border-left: 6px solid #ec407a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+}
+
+.alert-card:hover {
+  transform: translateY(-3px);
+}
+
+.alert-card h3 {
+  margin-top: 0;
+  color: #d6336c;
+}
+
+/* === Audio + Boutons === */
+.audio-wrapper {
+  margin-top: 10px;
+}
+
+.audio-player {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.download-button,
+.delete-button {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #ec407a;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #d81b60;
+}
+
+.delete-button {
+  background-color: #f44336;
+  margin-left: 10px;
+}
+
+.delete-button:hover {
+  background-color: #c62828;
+}
+
+/* === Carte Map === */
+.map-container {
+  height: 400px;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* === Responsive Design === */
+@media (max-width: 768px) {
+  .dashboard-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .sidebar nav ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+}
