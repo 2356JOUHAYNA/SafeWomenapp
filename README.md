@@ -64,15 +64,8 @@ DB: localhost:5432
 
 ## Backend Structure
 
-```
-├── controller         # API endpoints
-├── services           # Business logic
-├── repository         # Data access
-├── model              # JPA entities
-├── config             # Security and JWT
-├── uploads/audio      # Saved audio files
-└── resources
-```
+![image](https://github.com/user-attachments/assets/c7410be3-fc12-45fc-ab68-1d04a3bd9737)
+
 
 ## Getting Started
 
