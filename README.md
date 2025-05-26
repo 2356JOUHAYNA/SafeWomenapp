@@ -110,8 +110,8 @@ Screenshots should be placed in the /screenshots directory, including:
 
 ## Contact
 
-- khaoulaaguabdre@gmail.com  
-- safewomen.contact@gmail.com  
+- koubichatej@gmail.com  
+
 
 ## License
 
