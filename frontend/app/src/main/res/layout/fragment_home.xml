@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnEmergencyAlert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚨 Déclencher une alerte"
+        android:background="@drawable/button_emergency"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnViewAlerts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📋 Voir les alertes envoyées" />
+</LinearLayout>

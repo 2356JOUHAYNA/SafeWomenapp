@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs de base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Couleurs du thème -->
+    <color name="primaryColor">#1976D2</color>        <!-- Bleu principal -->
+    <color name="purple_700">#3700B3</color>          <!-- Variante plus sombre -->
+    <color name="teal_200">#03DAC5</color>            <!-- Accent secondaire -->
+
+    <!-- Couleurs supplémentaires utiles -->
+    <color name="emergencyColor">#D32F2F</color>      <!-- Rouge alerte -->
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_dark">#757575</color>
+    <color name="dangerColor">#F44336</color>
+    <color name="warningColor">#FFC107</color>
+    <color name="successColor">#4CAF50</color>
+    <color name="infoColor">#2196F3</color>
+
+    <!-- Couleurs neutres -->
+    <color name="blackColor">#212121</color>
+    <color name="darkGrayColor">#757575</color>
+    <color name="grayColor">#BDBDBD</color>
+    <color name="lightGrayColor">#EEEEEE</color>
+
+
+    <!-- Couleurs d'arrière-plan et de texte -->
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="dividerColor">#E0E0E0</color>
+
+    <color name="primary">#E98DA7</color> <!-- Rose poudré -->
+    <color name="secondary">#C6A5C6</color> <!-- Lavande douce -->
+    <color name="background">#FFF9F8</color> <!-- Blanc rosé -->
+    <color name="text_primary">#4A4A4A</color> <!-- Gris foncé -->
+    <color name="text_secondary">#A084A0</color> <!-- Violet pastel -->
+    <color name="danger">#FF3B30</color> <!-- Rouge SOS -->
+
+</resources>

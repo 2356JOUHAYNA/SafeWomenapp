@@ -1,0 +1,76 @@
+[versions]
+agp = "8.7.3"
+gradle = "8.6"
+kotlin = "1.9.24"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.10.1"
+constraintlayout = "2.2.1"
+retrofit = "2.9.0"
+gson = "2.9.0"
+recyclerview = "1.4.0"
+dexterVersion = "6.2.3"
+play-services-location = "21.3.0"
+okhttp = "4.12.0"
+navigationFragment = "2.9.0"
+navigationUi = "2.9.0"
+coreKtx = "1.16.0"
+maps = "19.2.0"
+navigationFragmentKtx = "2.9.0"
+navigationUiKtx = "2.9.0"
+twilio = "10.7.2"
+
+jaxb-api = "2.3.1"
+jaxb-impl = "4.0.2"
+
+
+httpclient = "4.5.13"
+httpcore = "4.4.13"
+activation-api = "1.2.0"
+httpclient-android = "4.4.1.1"
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity-ktx", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+convertergson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "gson" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "play-services-location" }
+dexter = { group = "com.karumi", name = "dexter", version.ref = "dexterVersion" }
+okhttp-logging = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+google-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "maps" }
+
+
+
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+
+
+
+
+twilio = { group = "com.twilio.sdk", name = "twilio", version.ref = "twilio" }
+
+jaxb-api = { group = "javax.xml.bind", name = "jaxb-api", version.ref = "jaxb-api" }
+jaxb-impl = { group = "org.glassfish.jaxb", name = "jaxb-runtime", version.ref = "jaxb-impl" }
+
+
+httpclient = { group = "org.apache.httpcomponents", name = "httpclient", version.ref = "httpclient" }
+httpcore = { group = "org.apache.httpcomponents", name = "httpcore", version.ref = "httpcore" }
+activation-api = { group = "javax.activation", name = "javax.activation-api", version.ref = "activation-api" }
+httpclient-android = { group = "cz.msebera.android.httpclient", name = "httpclient", version.ref = "httpclient-android" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

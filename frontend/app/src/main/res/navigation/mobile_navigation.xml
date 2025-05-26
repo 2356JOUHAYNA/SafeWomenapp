@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_sos"
+    >
+
+
+
+    <fragment
+        android:id="@+id/navigation_safe"
+        android:name="com.example.safewo.Location.SafePlaceFragment"
+        android:label="Lieu sûr"
+        tools:layout="@layout/fragment_safe_place" />
+
+    <fragment
+        android:id="@+id/navigation_contacts"
+        android:name="com.example.safewo.ui.auth.Contact.ContactsFragment"
+        android:label="Contacts" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.safewo.ui.auth.profile.ProfileFragment"
+        android:label="Profil"
+        />
+
+    <fragment
+        android:id="@+id/navigation_sos"
+        android:name="com.example.safewo.ui.auth.sos.SOSFragment"
+        android:label="Lieu sûr"
+        tools:layout="@layout/fragment_safe_place" />
+
+
+</navigation>

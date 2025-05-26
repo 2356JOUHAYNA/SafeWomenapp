@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    android:gravity="center"
+    android:backgroundTint="@color/secondary"
+    android:padding="24dp">
+
+    <!-- Logo ou icône principale -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="350dp"
+        android:layout_height="645dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_logo"
+        android:src="@drawable/logoo" />
+
+    <!-- Texte principal -->
+
+    <!-- Sous-titre optionnel -->
+
+</RelativeLayout>
