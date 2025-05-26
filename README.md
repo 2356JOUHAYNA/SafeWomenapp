@@ -37,3 +37,88 @@ Includes:
 ```bash
 cd backend
 docker-compose up -d
+
+
+Access services:
+
+API: http://localhost:8082  
+DB: localhost:5432
+
+## Features
+
+- SOS Alerts: Instant location and audio recording in emergencies  
+- Safe Zone Map: Locate safe places nearby  
+- SafeChat: AI-powered chatbot for guidance  
+- Audio Recorder: Background audio capture on alert  
+- User Dashboard: View and track your alert history  
+
+## Technical Stack
+
+- Frontend Mobile: Android SDK, Retrofit, ZXing  
+- Backend: Spring Boot, Spring Security, PostgreSQL  
+- AI Services: Flask, Scikit-learn  
+- DevOps: Docker, GitHub, IntelliJ, Android Studio  
+
+## Backend Structure
+
+├── controller # API endpoints
+├── services # Business logic
+├── repository # Data access
+├── model # JPA entities
+├── config # Security and JWT
+├── uploads/audio # Saved audio files
+└── resources
+
+bash
+Copy
+Edit
+
+## Getting Started
+
+### Prerequisites
+
+- Java 22  
+- PostgreSQL  
+- Android Studio  
+
+### Setup
+
+```bash
+git clone https://github.com/2356JOUHAYNA/SafeWomenapp.git
+cd SafeWomenapp/backend
+mvn spring-boot:run
+Android App
+Open in Android Studio
+
+Set API URL in Constants.java (for example: http://10.0.2.2:8082)
+
+Build and run
+
+Screenshots
+Screenshots should be placed in the /screenshots directory, including:
+
+SOS Trigger Screen
+
+Safe Zone Map
+
+ChatBot Interface
+
+Audio Alert History
+
+User Profile
+
+Contributors
+
+
+Jouhayna koubichate
+
+Aliae Chahbar
+
+Contact
+khaoulaaguabdre@gmail.com
+
+safewomen.contact@gmail.com
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
