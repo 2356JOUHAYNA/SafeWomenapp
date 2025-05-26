@@ -24,7 +24,8 @@ SafeWomen is composed of:
 - Flask Microservice: AI-powered chatbot assistant
 - PostgreSQL DB: Persistent user, alert, and safe zone data
 - Dockerized Services: For easy deployment and scalability
-- ![s2](https://github.com/user-attachments/assets/38d37844-0f22-41e3-a2ce-84f64daa28c7)
+![WhatsApp Image 2025-05-26 à 23 07 44_bdae4278](https://github.com/user-attachments/assets/9e7f709d-92da-489b-a19c-35d3a5225ac1)
+
 
 
 ## Docker Deployment
