@@ -64,7 +64,15 @@ DB: localhost:5432
 
 ## Backend Structure
 
-![image](https://github.com/user-attachments/assets/c7410be3-fc12-45fc-ab68-1d04a3bd9737)
+java/
+└── com.example.demo
+    ├── config
+    ├── controller
+    ├── dto
+    ├── model
+    ├── repository
+    └── service
+
 
 
 ## Getting Started
@@ -86,19 +94,10 @@ mvn spring-boot:run
 ### Android App
 
 Open in Android Studio  
-Set API URL in Constants.java (for example: http://10.0.2.2:8082)  
+Set API URL in Constants.java   
 Build and run  
 
-## Screenshots
-
-Screenshots should be placed in the /screenshots directory, including:
-
-- SOS Trigger Screen  
-- Safe Zone Map  
-- ChatBot Interface  
-- Audio Alert History  
-- User Profile  
-
+ 
 ## Contributors
 
 - Jouhayna Koubichate  
