@@ -66,6 +66,7 @@ DB: localhost:5432
 
 java/
 └── com.example.demo
+
     ├── config         
     ├── controller      
     ├── dto             
