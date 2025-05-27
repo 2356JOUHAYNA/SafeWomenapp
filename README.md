@@ -64,8 +64,7 @@ DB: localhost:5432
 
 ## Backend Structure
 
-java/
-└── com.example.demo
+
 
     ├── config         
     ├── controller      
